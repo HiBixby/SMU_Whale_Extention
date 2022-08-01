@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "상명대 바로가기 모음",
+  "description": "상명대생이 자주 방문하는 사이트 바로가기 모음",
+  "version": "1.0",
+  "icons":{
+      "16": "icons/favicon-16x16.png",
+      "32": "icons/favicon-32x32.png"
+  },
+  "action": {
+    "default_popup": "popup/index.html",
+    "default_icon": {
+        "16": "icons/favicon-16x16.png",
+        "32": "icons/favicon-32x32.png"
+    }
+  }
+}
