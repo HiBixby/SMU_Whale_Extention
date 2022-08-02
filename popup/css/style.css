@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body{
+    width: 400px;
+    font-family: "Nanum Gothic",sans-serif;
+    cursor:default
+}
+
+a{
+    color: black;
+    text-decoration-line: none;
+}
+
+a:hover{
+    text-decoration-line: underline;
+}
