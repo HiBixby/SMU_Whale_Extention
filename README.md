@@ -15,13 +15,7 @@
 * [기타 질문 및 건의](https://github.com/HiBixby/VeryStrongSumung_Whale_Extention/discussions)
 
 <details>
-   <summary>
-      <div markdown="1">
-         
-         # ✅ To Do
-      
-      </div>
-   </summary>
+   <summary><h1>✅ To Do</h1></summary>
    
    <div markdown="1">
       
