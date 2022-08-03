@@ -1,5 +1,7 @@
 # 🐳 VeryStrongSumung_Whale_Extension
 
+[Discord](https://discord.gg/6QTFg23ERx)
+
 ## **💪개강한 수뭉이 Very Strong Sumung**
 상명대생을 위한 네이버 웨일 브라우저 확장앱
 
