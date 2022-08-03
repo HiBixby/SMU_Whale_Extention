@@ -1,12 +1,15 @@
-# :whale: SMU_Whale_Extention
+# 🐳 VeryStrongSumung_Whale_Extention
 
 상명대생을 위한 네이버 웨일 브라우저 확장앱
+* 상명대생이 자주 가는 사이트 바로가기 모음
+* 개강한 수뭉이 Very Strong Sumung
 
-상명대생이 자주 가는 사이트 바로가기 모음
+# ✅ To Do
 
-# :white_check_mark: To Do
-
+- [x] 새탭 링크 만들기
 - [x] 통합 검색창 만들기
 - [ ] 정문 정류소 버스 도착 정보 띄우기
 - [ ] 학교 날씨 정보
 - [ ] api 정보 return 해주는 서버 만들기
+- [ ] 드래그앤 드롭으로 링크 위치 변경
+- [ ] 예쁜 바로가기 아이콘 추가
