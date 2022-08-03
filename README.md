@@ -7,6 +7,7 @@
 
 * 상명대생이 자주 가는 사이트 바로가기 모음
 * ⭐ 기여 환영 ⭐
+    * [기여 가이드](https://velog.io/@ppp3195/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EC%9E%85%EB%AC%B8%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%95%84%EC%A3%BC-%EA%B5%AC%EC%B2%B4%EC%A0%81%EC%9D%B8-%EA%B0%80%EC%9D%B4%EB%93%9C)
     * whale://extensions/ 에서 개발자모드를 켜고 "압축해제 된 확장앱 설치" 를 눌러서 개발자모드로 사용 가능
     * 오타 수정도 괜찮습니다. 
     * 커밋 메세지 컨벤션 : Gitmoji
