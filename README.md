@@ -9,6 +9,7 @@
     * 커밋 메세지 컨벤션 : Gitmoji
       * https://inpa.tistory.com/entry/GIT-%E2%9A%A1%EF%B8%8F-Gitmoji-%EC%82%AC%EC%9A%A9%EB%B2%95-Gitmoji-cli
       * 오타 수정의 경우 "✏️ a를 b로 수정"
+* [기타 질문 및 건의](https://github.com/HiBixby/VeryStrongSumung_Whale_Extention/discussions)
 
 # ✅ To Do
 
