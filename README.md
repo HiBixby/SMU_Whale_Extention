@@ -33,4 +33,5 @@
    </div>
 </details>
 
+수뭉이 캐릭터 디자인은 상명대학교에게 있습니다.
    <!-- Gitmoji 📝 Add or update documentation-->
