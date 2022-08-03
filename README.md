@@ -15,19 +15,19 @@
 * [기타 질문 및 건의](https://github.com/HiBixby/VeryStrongSumung_Whale_Extention/discussions)
 
 <details>
-<div markdown="1">
-<summary># ✅ To Do</summary>
-- [x] 새탭 링크 만들기
-- [x] 통합 검색창 만들기
-- [ ] 정문 정류소 버스 도착 정보 띄우기 (공공 데이터 API 활용 예정)
-- [ ] 학교 날씨 정보
-- [ ] api 정보 return 해주는 서버 만들기
-- [ ] 드래그앤 드롭으로 링크 위치 변경
-- [ ] 예쁜 바로가기 아이콘 추가
-- [ ] 학식 관련 기능 추가
-- [ ] 다국어 기능 추가
-- [ ] 종강시계
-</div>
+<summary>✅ To Do</summary>
+   <div markdown="1">
+   - [x] 새탭 링크 만들기
+   - [x] 통합 검색창 만들기
+   - [ ] 정문 정류소 버스 도착 정보 띄우기 (공공 데이터 API 활용 예정)
+   - [ ] 학교 날씨 정보
+   - [ ] api 정보 return 해주는 서버 만들기
+   - [ ] 드래그앤 드롭으로 링크 위치 변경
+   - [ ] 예쁜 바로가기 아이콘 추가
+   - [ ] 학식 관련 기능 추가
+   - [ ] 다국어 기능 추가
+   - [ ] 종강시계
+   </div>
 </details>
 
    <!-- Gitmoji 📝 Add or update documentation-->
