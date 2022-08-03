@@ -14,5 +14,5 @@
       "32": "icons/favicon-32x32.png"
     }
   },
-  "permissions": ["https://*.smu.ac.kr/*"]
+  "host_permissions": ["https://*.smu.ac.kr/*"]
 }
