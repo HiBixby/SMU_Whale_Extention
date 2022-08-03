@@ -14,7 +14,7 @@
       * 오타 수정 커밋 메세지 예시 `✏️ a를 b로 수정`
 * [기타 질문 및 건의](https://github.com/HiBixby/VeryStrongSumung_Whale_Extention/discussions)
 
-<details>
+<details open>
    <summary><h1>✅ To Do</h1></summary>
    
    <div markdown="1">
