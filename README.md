@@ -1,4 +1,4 @@
-# 🐳 VeryStrongSumung_Whale_Extention
+# 🐳 VeryStrongSumung_Whale_Extension
 
 ## **💪개강한 수뭉이 Very Strong Sumung**
 상명대생을 위한 네이버 웨일 브라우저 확장앱
