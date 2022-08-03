@@ -5,6 +5,10 @@
 * 개강한 수뭉이 Very Strong Sumung
 * ⭐ 기여 환영 ⭐
     * whale://extensions/ 에서 개발자모드를 켜고 "압축해제 된 확장앱 설치" 를 눌러서 개발자모드로 사용 가능
+    * 오타 수정도 괜찮습니다. 
+    * 커밋 메세지 컨벤션 : Gitmoji
+      * https://inpa.tistory.com/entry/GIT-%E2%9A%A1%EF%B8%8F-Gitmoji-%EC%82%AC%EC%9A%A9%EB%B2%95-Gitmoji-cli
+      * 오타 수정의 경우 "✏️ a를 b로 수정"
 
 # ✅ To Do
 
