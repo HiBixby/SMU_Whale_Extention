@@ -11,7 +11,8 @@
     * whale://extensions/ 에서 개발자모드를 켜고 "압축해제 된 확장앱 설치" 를 눌러서 개발자모드로 사용 가능
     * 오타 수정도 괜찮습니다. 
     * 커밋 메세지 컨벤션 : Gitmoji
-      * https://inpa.tistory.com/entry/GIT-%E2%9A%A1%EF%B8%8F-Gitmoji-%EC%82%AC%EC%9A%A9%EB%B2%95-Gitmoji-cli
+      * [Gitmoji 한국어 설명](https://inpa.tistory.com/entry/GIT-%E2%9A%A1%EF%B8%8F-Gitmoji-%EC%82%AC%EC%9A%A9%EB%B2%95-Gitmoji-cli)
+      * 저는 VSCode의 `Gitmoji` extension을 추천합니다.
       * 오타 수정 커밋 메세지 예시 `✏️ a를 b로 수정`
 * [기타 질문 및 건의](https://github.com/HiBixby/VeryStrongSumung_Whale_Extention/discussions)
 
