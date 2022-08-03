@@ -1,5 +1,5 @@
 const searchEngineUrl =
-  "https://www.smu.ac.kr/search/search.do?menu=%ED%86%B5%ED%95%A9%EA%B2%80%EC%83%89&qt=";
+  "https://www.smu.ac.kr/search/search.do?menu=통합검색&qt=";
 
 const searchInput = document.querySelector("#search input");
 const searchButton = document.querySelector("#search button");
