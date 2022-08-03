@@ -1,6 +1,6 @@
 # 🐳 VeryStrongSumung_Whale_Extension
 
-[Discord](https://discord.gg/6QTFg23ERx)
+<a href="https://discord.gg/6QTFg23ERx"><img alt="Discord" src ="https://img.shields.io/badge/Discord-5865F2.svg?&style=for-the-badge&logo=Python&logoColor=white"/>
 
 ## **💪개강한 수뭉이 Very Strong Sumung**
 상명대생을 위한 네이버 웨일 브라우저 확장앱
