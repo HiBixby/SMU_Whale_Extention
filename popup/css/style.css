@@ -5,6 +5,9 @@ body{
     font-family: "Nanum Gothic",sans-serif;
     cursor:default
 }
+#search{
+    padding-left: 40;
+}
 #icon-link-list
 {
     padding-left: 0;
