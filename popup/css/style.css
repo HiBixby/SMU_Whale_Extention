@@ -1,8 +1,10 @@
-@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(https://hangeul.pstatic.net/hangeul_static/css/nanum-gothic.css);
 
+*{
+    font-family: "NanumGothic",sans-serif;
+}
 body{
     width: 310px;
-    font-family: "Nanum Gothic",sans-serif;
     cursor:default
 }
 #search{
@@ -21,7 +23,7 @@ body{
 #icon-link-list > li > a{
     display:block;
     position:relative;
-    padding-bottom: 19px;
+    padding-bottom: 20px;
     margin:10px;
 }
 #icon-link-list>li>a>img{
@@ -31,6 +33,7 @@ body{
     filter:brightness(90%);
 }
 #icon-link-list>li>a>span{
+    font-size: 13;
     position:absolute;
     bottom: 0;
     left: 50%;
