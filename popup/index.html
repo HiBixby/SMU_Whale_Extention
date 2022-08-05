@@ -2,12 +2,20 @@
   <head>
     <title>개강한 수뭉이</title>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <form id="search">
-      <input type="text" placeholder="통합검색" required />
-      <button type="submit">검색</button>
+    <form id="search" class="input-group">
+      <input
+        type="search"
+        class="form-control"
+        placeholder="통합검색"
+        required
+      />
+      <button class="btn btn-outline-primary" type="submit">
+        <i class="bi bi-search"></i>
+      </button>
     </form>
 
     <ul id="icon-link-list">
@@ -75,12 +83,16 @@
         </a>
       </li>
       <li>
-        <a href="https://www.smu.ac.kr/ko/life/restaurantView.do" target="_blank">
-          <img src="../icons/학식.png"/>
+        <a
+          href="https://www.smu.ac.kr/ko/life/restaurantView.do"
+          target="_blank"
+        >
+          <img src="../icons/학식.png" />
           <span>학식정보</span>
         </a>
       </li>
     </ul>
   </body>
   <script src="app.js"></script>
+  <script src="bootstrap.min.js"></script>
 </html>
