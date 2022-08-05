@@ -35,6 +35,7 @@ body{
 #search button:hover{
     background-color: lightgray;
     color: white;
+    transition:0.3s;
 }
 #icon-link-list
 {
@@ -58,6 +59,7 @@ body{
 }
 #icon-link-list>li>a:hover{
     filter:brightness(90%);
+    transition: 0.3s;
 }
 #icon-link-list>li>a>span{
     font-size: 13;
