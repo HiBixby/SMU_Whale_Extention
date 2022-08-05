@@ -68,11 +68,37 @@ body {
   background: #eceef7;
   box-shadow: 5px 5px 10px #B4C4D4, -3px -3px 5px #ffffff;
 }
-#icon-link-list > li > a:hover {
-  filter: brightness(90%);
-  transition: 0.3s;
+.icon-button:hover{
+    box-shadow: none;
 }
-
+.icon-button::before{
+    content:'';
+    position:absolute;
+    inset:0;
+    border-radius: 10px;
+    background: linear-gradient(45deg,var(--i),var(--j));
+    opacity: 0;
+    transition: 0.5s;
+}
+.icon-button:hover::before{
+    opacity: 1;
+}
+.icon-button::after{
+    content:'';
+    position:absolute;
+    top:10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: linear-gradient(45deg,var(--i),var(--j));
+    transition: 0.5s;
+    filter:blur(10px);
+    z-index: -1;
+    opacity: 0;
+}
+.icon-button:hover::after{
+    opacity: 0.5;
+}
 .fa-solid {
   color: #838fa3;
   vertical-align: middle;
