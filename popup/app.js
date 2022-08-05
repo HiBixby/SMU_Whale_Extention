@@ -7,7 +7,6 @@ const searchButton = document.querySelector("#search button");
 function onSearchBtnClick() {
   const searchWord = searchInput.value;
   if (searchWord) {
-    console.log(searchWord);
     whale.tabs.create({
       url: searchEngineUrl + searchWord,
     });
