@@ -4,6 +4,16 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.5/dist/web/static/pretendard.css");
 
 
+/* :root{
+  --bg-color: #ffd9b5;
+  --dark-shadow: #d9b89a;
+  --light-shadow:#fffad0;
+  --bg-gradient1:#ffe8c2;
+  --bg-gradient2:#e6c3a3;
+  --font-color: #ab8872;
+  --text-shadow-color:#c29376;
+  --search-input-text-color: #ab887283;
+} */
 :root{
   --bg-color: #Ededed;
   --dark-shadow: #cccccc;
@@ -116,7 +126,7 @@ body {
   font-size: 20px;
   border-radius: 10px;
   background: var(--bg-color);
-  /* background: linear-gradient(145deg,#d6daee,#fdffff); */
+  /* background: linear-gradient(145deg,var(--bg-gradient1),var(--bg-gradient2)); */
   box-shadow: 3px 3px 5px var(--dark-shadow), -3px -3px 5px var(--light-shadow);
 }
 .icon-button:hover {
