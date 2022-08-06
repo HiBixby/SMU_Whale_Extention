@@ -3,6 +3,16 @@
 @import url(https://hangeul.pstatic.net/hangeul_static/css/nanum-barun-gothic.css);
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.5/dist/web/static/pretendard.css");
 
+/* :root{
+  --bg-color: #FEFEFE;
+  --dark-shadow: #d8d8d8;
+  --light-shadow:#ffffff;
+  --bg-gradient1:#e5e5e5;
+  --bg-gradient2:#ffffff;
+  --font-color:#A2A2A2;
+  --text-shadow-color:#a2a2a200;
+  --search-input-text-color:#A2A2A2;
+} */
 
 :root{
   --bg-color: #eceef7;
@@ -31,10 +41,17 @@
   margin-bottom: 0;
 }
 body {
-  width: 290px;
+  width: 350px;
+  margin:0;
   cursor: default;
-  margin-bottom: 0;
   background-color: var(--bg-color);
+}
+#main-container{
+  margin:20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--bg-color);
+  box-shadow: 3px 3px 5px var(--dark-shadow), -3px -3px 3px var(--light-shadow);
 }
 #search {
   margin-top: 20px;
@@ -46,9 +63,9 @@ body {
   box-shadow: inset 3px 3px 5px var(--dark-shadow), inset -3px -3px 3px var(--light-shadow);
 }
 #search i{
-  position: absolute;
-  left:40px;
-  top:30px;
+  position: relative;
+  left: 15px;
+  bottom: 2px;
 }
 #search input:focus {
   outline: none;
@@ -65,22 +82,9 @@ body {
 #search input::placeholder{
   color:var(--search-input-text-color);
 }
-#search button {
-  border: none;
-  border-radius: 5px;
-  padding: 10px;
-  outline: 0.5px solid whitesmoke;
-  background-color: whitesmoke;
-  cursor: pointer;
-}
-#search button:hover {
-  background-color: lightgray;
-  color: white;
-  transition: 0.3s;
-}
 #icon-link-list {
   padding-left: 0;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 #icon-link-list > li {
   display: inline-block;
@@ -104,8 +108,8 @@ body {
   font-size: 20px;
   border-radius: 10px;
   background: var(--bg-color);
-  /* background: linear-gradient(145deg,#d6daee,#fdffff); */
-  box-shadow: 3px 3px 5px var(--dark-shadow), -3px -3px 5px var(--light-shadow);
+  /* background: linear-gradient(145deg,var(--bg-gradient1),var(--bg-gradient2)); */
+  box-shadow: 3px 3px 10px var(--dark-shadow), -3px -3px 5px var(--light-shadow);
 }
 .icon-button:hover {
   box-shadow: none;
@@ -132,7 +136,7 @@ body {
   background: linear-gradient(45deg, var(--i), var(--j));
   transition: 0.5s;
   filter: blur(10px);
-  z-index: -1;
+  z-index: 0;
   opacity: 0;
 }
 .icon-button:hover::after {
