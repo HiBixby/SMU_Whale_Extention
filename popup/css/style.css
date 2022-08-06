@@ -5,6 +5,17 @@
 
 
 :root{
+  --bg-color: #Ededed;
+  --dark-shadow: #cccccc;
+  --light-shadow:#ffffff;
+  --bg-gradient1:#d5d5d5;
+  --bg-gradient2:#fefefe;
+  --font-color: #A2A2A2;
+  --text-shadow-color:#d8d4c8;
+  --search-input-text-color: #bbb6acbe;
+}
+
+/* :root{
   --bg-color: #eceef7;
   --dark-shadow: #b4c4d4b5;
   --light-shadow:#ffffff;
@@ -13,7 +24,7 @@
   --font-color: #838fa3;
   --text-shadow-color:#b4c4d4ae;
   --search-input-text-color: #a1b1c9be;
-}
+} */
 
 /* 하늘색 버전*/
 /* :root{
