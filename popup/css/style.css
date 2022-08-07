@@ -64,7 +64,7 @@ body {
   text-decoration: none;
 }
 
-.icon-in-button {
+.icon-container {
   width: 50px;
   height: 50px;
   display: flex;
@@ -76,11 +76,11 @@ body {
   box-shadow: 3px 3px 5px var(--dark-shadow), -3px -3px 5px var(--light-shadow);
 }
 
-.icon-in-button:hover {
+.icon-container:hover {
   box-shadow: none;
 }
 
-.icon-in-button::before {
+.icon-container::before {
   content: '';
   position: absolute;
   inset: 0;
@@ -90,11 +90,11 @@ body {
   transition: 0.5s;
 }
 
-.icon-in-button:hover::before {
+.icon-container:hover::before {
   opacity: 1;
 }
 
-.icon-in-button::after {
+.icon-container::after {
   content: '';
   position: absolute;
   top: 10px;
@@ -108,7 +108,7 @@ body {
   opacity: 0;
 }
 
-.icon-in-button:hover::after {
+.icon-container:hover::after {
   opacity: 0.5;
 }
 
