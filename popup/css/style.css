@@ -53,18 +53,18 @@ body {
   color: var(--search-input-text-color);
 }
 
-#icon-link-list {
+.buttons-collection {
   margin-bottom: 30px;
 }
 
-#icon-link-list > li {
+.link-button {
   display: inline-block;
   position: relative;
   top: 10px;
   left: 10px;
 }
 
-#icon-link-list > li > a {
+.link-button > a {
   display: block;
   position: relative;
   margin: 8px;
