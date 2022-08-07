@@ -1,0 +1,44 @@
+/* :root{
+  --bg-color: #ffd9b5;
+  --dark-shadow: #d9b89a;
+  --light-shadow:#fffad0;
+  --bg-gradient1:#ffe8c2;
+  --bg-gradient2:#e6c3a3;
+  --font-color: #ab8872;
+  --text-shadow-color:#c29376;
+  --search-input-text-color: #ab887283;
+} */
+:root {
+  --bg-color: #ededed;
+  --dark-shadow: #cccccc;
+  --light-shadow: #ffffff;
+  --bg-gradient1: #d5d5d5;
+  --bg-gradient2: #fefefe;
+  --font-color: #a2a2a2;
+  --text-shadow-color: #d8d4c8;
+  --search-input-text-color: #bbb6acbe;
+  --border-radius: 10px;
+}
+
+/* :root{
+  --bg-color: #eceef7;
+  --dark-shadow: #b4c4d4b5;
+  --light-shadow:#ffffff;
+  --bg-gradient1:#d6daee;
+  --bg-gradient2:#fdffff;
+  --font-color: #838fa3;
+  --text-shadow-color:#b4c4d4ae;
+  --search-input-text-color: #a1b1c9be;
+} */
+
+/* 하늘색 버전*/
+/* :root{
+  --bg-color: #DEEBF7;
+  --dark-shadow: #B0CEEC;
+  --light-shadow:#ffffff;
+  --bg-gradient1:#c1ddf8;
+  --bg-gradient2:#FAFBFE;
+  --font-color:#7DB0DF;
+  --text-shadow-color:#B5D2EC;
+  --search-input-text-color:#b4d3f1;
+} */
