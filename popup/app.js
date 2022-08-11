@@ -5,6 +5,7 @@ const searchButton = document.querySelector('.search-bar button');
 const searchIcon = document.querySelector('.search-bar i');
 const iconContainer = document.querySelectorAll('.icon-container');
 const iconInButton = document.querySelectorAll('.icon-container i');
+const buttonGrid = document.querySelector('.buttons-collection');
 
 function onSearchBtnClick() {
   const searchWord = searchInput.value;
@@ -28,5 +29,5 @@ function onIconContainerMouseLeave() {
 }
 [].forEach.call(iconContainer, function (params) {
   params.addEventListener('mouseenter', onIconContainerMouseEnter);
-  params.addEventListener('mouseleave', onIconContainerMouseLeave);
 });
+buttonGrid.addEventListener('mouseleave', onIconContainerMouseLeave);
