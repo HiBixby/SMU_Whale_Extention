@@ -16,7 +16,17 @@ function onSearchBtnClick() {
 }
 searchButton.addEventListener('click', onSearchBtnClick);
 
-function onIconContainerHover() {
-  //TODO
+function onIconContainerMouseEnter(event) {
+  const selectedIcon = event.target.children[0].className;
+  const selectedTitle = event.target.parentNode.title;
+  searchIcon.className = selectedIcon;
+  searchInput.placeholder = selectedTitle;
 }
-iconContainer.addEventListener('hover', onIconContainerHover);
+function onIconContainerMouseLeave() {
+  searchIcon.className = 'fa-solid fa-magnifying-glass';
+  searchInput.placeholder = '통합검색';
+}
+[].forEach.call(iconContainer, function (params) {
+  params.addEventListener('mouseenter', onIconContainerMouseEnter);
+  params.addEventListener('mouseleave', onIconContainerMouseLeave);
+});
