@@ -10,9 +10,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
   </head>
   <body>
-    <form class="search-bar">
+    <form
+      class="search-bar"
+      action="https://www.smu.ac.kr/search/search.do?menu=통합검색"
+      method="GET"
+      target="_blank"
+      autocomplete="off"
+    >
       <i class="fa-solid fa-magnifying-glass"></i>
-      <input type="search" placeholder="통합검색" required />
+      <input type="search" placeholder="통합검색" name="qt" required />
       <button type="submit" style="display: none"></button>
     </form>
 
