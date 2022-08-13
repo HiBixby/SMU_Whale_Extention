@@ -17,7 +17,7 @@
     - 오타 수정 커밋 메세지 예시 `✏️ a를 b로 수정`
 - [기타 질문 및 건의](https://github.com/HiBixby/VeryStrongSumung_Whale_Extention/discussions)
 
-## **🏃 Current Status**
+## **🏃 현재 상황 Current Status**
 ![image](https://user-images.githubusercontent.com/66160055/184511931-f31bb8b2-a412-4453-9232-9b28e420e9a1.png)
 
 <details open>
