@@ -1,5 +1,6 @@
 const searchEngineUrl = 'https://www.smu.ac.kr/search/search.do?menu=통합검색&qt=';
 
+const searchForm = document.querySelector('.search-bar');
 const searchInput = document.querySelector('.search-bar input');
 const searchButton = document.querySelector('.search-bar button');
 const searchIcon = document.querySelector('.search-bar i');
@@ -31,3 +32,18 @@ function onIconContainerMouseLeave() {
   params.addEventListener('mouseenter', onIconContainerMouseEnter);
 });
 buttonGrid.addEventListener('mouseleave', onIconContainerMouseLeave);
+
+function onSearchInputScroll(event) {
+  //TODO
+  if (searchInput.placeholder == '통합검색') {
+    searchInput.placeholder = '에브리타임검색';
+    searchInput.name = '';
+    searchForm.action = 'https://everytime.kr/search/all/';
+  } else {
+    searchInput.placeholder = '통합검색';
+    searchInput.name = 'qt';
+    searchForm.action = 'https://www.smu.ac.kr/search/search.do?menu=통합검색';
+  }
+}
+searchForm.addEventListener('wheel', onSearchInputScroll);
+색;
