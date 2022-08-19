@@ -18,6 +18,7 @@
 - [기타 질문 및 건의](https://github.com/HiBixby/VeryStrongSumung_Whale_Extention/discussions)
 
 ## **🏃 현재 상황 Current Status**
+
 ![image](https://user-images.githubusercontent.com/66160055/184511931-f31bb8b2-a412-4453-9232-9b28e420e9a1.png)
 
 <details open>
@@ -35,6 +36,7 @@
    - [x] 학식 관련 기능 추가
    - [ ] 다국어 기능 추가
    - [ ] ~~종강시계~~
+   - [ ] 검색창 스크롤시 검색엔진 전환(상명대 통합검색, 에브리타임검색)
 
    </div>
 </details>
