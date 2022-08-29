@@ -46,4 +46,3 @@ function onSearchInputScroll(event) {
   }
 }
 searchForm.addEventListener('wheel', onSearchInputScroll);
-색;
